@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import WineList from './components/WineList';
 import Login from './pages/Login';

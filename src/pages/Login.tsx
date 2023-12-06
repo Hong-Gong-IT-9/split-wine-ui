@@ -1,10 +1,10 @@
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-
+import style from './Login.module.css'
 
 const Login = () => {
     
-    return <div>
+    return <div className={style['login-section']}>
         <TextField id="outlined-basic" label="email" variant="outlined" />
         <TextField
           id="outlined-password-input"
